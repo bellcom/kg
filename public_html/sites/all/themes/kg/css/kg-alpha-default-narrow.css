@@ -1,0 +1,86 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+#region-header-second { display: none}
+#facebook-like-this-page { display: block}
+#region-menu { width: 700px}
+, li.menu-1291 { display: inline-block}
+#block-views-bannernew-block .views_slideshow_main .views-field-field-bannerlink a { 
+	font-size: 50px;
+	line-height: 70px; 
+	position:  absolute; 
+	top: 20px; left: 20px; 
+	z-index: 3; 
+	}
+	
+#region-menu .region-inner .navigation, #region-header-second .region-inner { height: 42px;}
+.spot-stor.views-row { margin-bottom: 0px}
+
+
+.spot-stor.views-row-1 { margin-left: 0px;}
+.spot-stor.views-row-2 { margin-right: 0px;}
+.spot-footer.views-row-1 { margin-left: 0px;}
+.spot-footer.views-row-2 { margin-right: 0px;}
+
+.spot-medium .views-row-1 { margin-left: 0;}
+.spot-medium .views-row-3 { margin-right: 0;}
+.view-spot .spot-billede img {width: 100%;}
+
+.overview-title{
+	border-top: none;
+	margin-bottom: -18px;
+	padding-left: 10px;}
+/*.spot-uddannelseslinje {
+	margin-right: 0 !important;
+	border-top: 1px solid #E0E0E0;}
+
+.spot-uddannelseslinje .views-field.views-field-nothing {
+	padding-right: 9px;
+	border-right: 1px solid #E0E0E0;}
+.spot-uddannelseslinje:nth-child(2),
+.spot-uddannelseslinje:nth-child(3) {
+	margin-left: 9px !important;
+	padding: 0 0 10px 9px;}
+.spot-uddannelseslinje:nth-child(3) {
+	margin-right: 10px;
+}
+.spot-uddannelseslinje:nth-child(3) .views-field.views-field-nothing {
+	padding-right: 0;
+	border-right: none;}*/
+	
+
+/* Banner */
+
+.views-field-field-bannerimage img{width: 100%;}
+
+
+.node-type-galleri .field-name-field-billeder .field-item,
+.view-alle-gallerier .views-row,
+.node-type-galleri .field-name-field-billeder .field-item img,
+.view-alle-gallerier .views-row img{
+	width: auto;
+}
+
+#facebook-like-this-page {
+	display: inline-block;
+	top: -40px;
+	position: absolute;}
+
+
+#block-views-bannernew-block .views_slideshow_main .views-field-field-bannerlink {font-size: 30px;line-height: 35px}
+.node-type-page .grid-8 { width: 100% !important;}
+.region-footer-second{
+	margin-right: 0;
+	margin-left: 0}
+.region-footer-second .region-inner{
+	padding-right: 9px;
+	border-right: 1px solid #e7e7e7;
+	padding-left: 9px;
+	border-left: 1px solid #e7e7e7;}
+.region-footer-second-inner, .region-postscript-third-inner { margin-top: 25px}
+
+#region-header-second .region-inner { text-align: center; }
+
+.spot-titel h3 { font-size: 12px;}
